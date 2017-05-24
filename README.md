@@ -1,2 +1,2 @@
-# HashtagAggregatorClient
-Client for HashtagAggregator https://github.com/EvilAvenger/HashtagAggregator
+# HashtagAggregatorIdentity Service
+Identity Server for HashtagAggregator https://github.com/EvilAvenger/HashtagAggregator
