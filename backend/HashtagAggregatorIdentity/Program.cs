@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace HashtagAggregatorIdentity
+namespace HashtagAggregator.IdentityServer
 {
     public class Program
     {
@@ -16,6 +12,7 @@ namespace HashtagAggregatorIdentity
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
+                .UseUrls("http://localhost:5001/")
                 .UseApplicationInsights()
                 .Build();
 

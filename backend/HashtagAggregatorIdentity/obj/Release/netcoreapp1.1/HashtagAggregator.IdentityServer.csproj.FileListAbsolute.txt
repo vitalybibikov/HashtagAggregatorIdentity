@@ -1,0 +1,9 @@
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\HashtagAggregator\WebAPI\HashtagAggregator.IdentityServer\bin\Release\netcoreapp1.1\HashtagAggregator.IdentityServer.deps.json
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\HashtagAggregator\WebAPI\HashtagAggregator.IdentityServer\bin\Release\netcoreapp1.1\HashtagAggregator.IdentityServer.runtimeconfig.json
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\HashtagAggregator\WebAPI\HashtagAggregator.IdentityServer\bin\Release\netcoreapp1.1\HashtagAggregator.IdentityServer.runtimeconfig.dev.json
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\HashtagAggregator\WebAPI\HashtagAggregator.IdentityServer\bin\Release\netcoreapp1.1\HashtagAggregator.IdentityServer.dll
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\HashtagAggregator\WebAPI\HashtagAggregator.IdentityServer\bin\Release\netcoreapp1.1\HashtagAggregator.IdentityServer.pdb
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\HashtagAggregator\WebAPI\HashtagAggregator.IdentityServer\obj\Release\netcoreapp1.1\HashtagAggregator.IdentityServer.csprojResolveAssemblyReference.cache
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\HashtagAggregator\WebAPI\HashtagAggregator.IdentityServer\obj\Release\netcoreapp1.1\HashtagAggregator.IdentityServer.AssemblyInfo.cs
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\HashtagAggregator\WebAPI\HashtagAggregator.IdentityServer\obj\Release\netcoreapp1.1\HashtagAggregator.IdentityServer.dll
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\HashtagAggregator\WebAPI\HashtagAggregator.IdentityServer\obj\Release\netcoreapp1.1\HashtagAggregator.IdentityServer.pdb

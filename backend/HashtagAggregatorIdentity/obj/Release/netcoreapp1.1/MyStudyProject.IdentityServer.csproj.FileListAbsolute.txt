@@ -1,0 +1,9 @@
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\MyStudyProject\WebAPI\MyStudyProject.IdentityServer\bin\Release\netcoreapp1.1\MyStudyProject.IdentityServer.deps.json
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\MyStudyProject\WebAPI\MyStudyProject.IdentityServer\bin\Release\netcoreapp1.1\MyStudyProject.IdentityServer.runtimeconfig.json
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\MyStudyProject\WebAPI\MyStudyProject.IdentityServer\bin\Release\netcoreapp1.1\MyStudyProject.IdentityServer.runtimeconfig.dev.json
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\MyStudyProject\WebAPI\MyStudyProject.IdentityServer\bin\Release\netcoreapp1.1\MyStudyProject.IdentityServer.dll
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\MyStudyProject\WebAPI\MyStudyProject.IdentityServer\bin\Release\netcoreapp1.1\MyStudyProject.IdentityServer.pdb
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\MyStudyProject\WebAPI\MyStudyProject.IdentityServer\obj\Release\netcoreapp1.1\MyStudyProject.IdentityServer.csprojResolveAssemblyReference.cache
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\MyStudyProject\WebAPI\MyStudyProject.IdentityServer\obj\Release\netcoreapp1.1\MyStudyProject.IdentityServer.AssemblyInfo.cs
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\MyStudyProject\WebAPI\MyStudyProject.IdentityServer\obj\Release\netcoreapp1.1\MyStudyProject.IdentityServer.dll
+C:\Users\vbibikov\Dropbox\Study\Programming\C#\MyStudyProject\WebAPI\MyStudyProject.IdentityServer\obj\Release\netcoreapp1.1\MyStudyProject.IdentityServer.pdb
