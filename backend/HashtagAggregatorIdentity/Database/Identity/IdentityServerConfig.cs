@@ -8,6 +8,9 @@ namespace HashtagAggregator.IdentityServer.Database.Identity
     public static class IdentityServerConfig
     {
         private const string StatisticsApiName = "statisticsapi";
+        private const string TwitterApiService = "twitterapiservice";
+        private const string VkApiService = "vkapiservice";
+        private const string ConsumerApiService = "consumerapiservice";
 
         public static IEnumerable<IdentityResource> GetIdentityResources()
         {
@@ -23,7 +26,10 @@ namespace HashtagAggregator.IdentityServer.Database.Identity
         {
             return new List<ApiResource>
             {
-                new ApiResource(StatisticsApiName, "Statistics API")
+                new ApiResource(StatisticsApiName, "Statistics API"),
+                new ApiResource(TwitterApiService, "Twitter Service API"),
+                new ApiResource(VkApiService, "VK service API"),
+                new ApiResource(ConsumerApiService, "Consumer API")
             };
         }
 
@@ -37,9 +43,9 @@ namespace HashtagAggregator.IdentityServer.Database.Identity
                     ClientName = "Statistics API Client",
                     AllowedGrantTypes = GrantTypes.Implicit,
 
-                    RedirectUris = { configuration.GetSection("StatisticsApiClient:RedirectURI").Value },
-                    PostLogoutRedirectUris = { configuration.GetSection("statisticsApiClient:LogoutURI").Value },
-                    AllowedCorsOrigins = { configuration.GetSection("StatisticsApiClient:AllowedCorsOriginsURI").Value },
+                    RedirectUris = {configuration.GetSection("StatisticsApiClient:RedirectURI").Value},
+                    PostLogoutRedirectUris = {configuration.GetSection("statisticsApiClient:LogoutURI").Value},
+                    AllowedCorsOrigins = {configuration.GetSection("StatisticsApiClient:AllowedCorsOriginsURI").Value},
 
                     AllowedScopes =
                     {
@@ -48,9 +54,18 @@ namespace HashtagAggregator.IdentityServer.Database.Identity
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.Email
                     },
-                    AllowAccessTokensViaBrowser =  true,
+                    AllowAccessTokensViaBrowser = true,
                     AllowRememberConsent = false,
                     RequireConsent = false
+                },
+                new Client
+                {
+                    ClientId = "statisticsapi",
+                    ClientName = "Statistics API",
+                    ClientSecrets = {new Secret("hashtagaggreggatorsapiservice".Sha256())},
+                    
+                    AllowedGrantTypes = GrantTypes.ClientCredentials,
+                    AllowedScopes = {TwitterApiService, VkApiService}
                 }
             };
         }
