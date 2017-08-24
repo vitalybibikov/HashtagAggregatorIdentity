@@ -4,14 +4,17 @@ echo Started
 
 SET currentPath=%~dp0
 SET authPath=%~dp0..\backend\HashtagAggregatorIdentity
-SET ASPNETCORE_ENVIRONMENT=dev
+
+setx ASPNETCORE_ENVIRONMENT dev
 
 cd %authPath%
 
 echo %authPath%
 
-dotnet run 
+dotnet run --no-launch-profile
 
 cd %currentPath%
 
 echo Finished
+
+
